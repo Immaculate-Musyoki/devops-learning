@@ -1,0 +1,2 @@
+APP_NAME=DAY1APP
+ENVIRONMENT=development
