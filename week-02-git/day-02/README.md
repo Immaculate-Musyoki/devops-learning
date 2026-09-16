@@ -45,6 +45,11 @@ Repository History
 
 `git diff --cached` shows changes that have been staged.
 
+## Branching Practice
+
+I created and switched to a feature branch using Git.
+
+The feature branch allows me to work on changes separately from the main branch.
 `git restore` can discard unstaged changes.
 
 `git restore --staged` removes a file from the staging area without deleting its changes.
