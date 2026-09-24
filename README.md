@@ -18,5 +18,9 @@ To build and deploy a real-world application while demonstrating software develo
 
 ## Progress
 
-- Week 1: Linux fundamentals
-- Week 2: Git fundamentals
+- Day 1: Linux fundamentals
+- Day 2: Git fundamentals
+
+## Current Focus
+
+I am currently developing practical skills in Linux, Git, software development, DevOps, and QA.
