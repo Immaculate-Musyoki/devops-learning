@@ -14,8 +14,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Check repository
+      - name: Check required directories
         run: |
-          echo "Repository checkout successful"
-          echo "Running DevOps learning repository checks..."
-          find . -maxdepth 2 -type f | sort
+          test -d week-01-linux
+          test -d week-02-git
+          test -d development
+          test -d docker
+          test -d ci-cd
+          test -d cloud
+          test -d testing
+          test -d final-project
+
+      - name: Check README
+        run: |
+          test -f README.md
+          grep -q "DevOps Learning Journey" README.md
+
+      - name: CI success message
+        run: echo "All repository checks passed successfully."
